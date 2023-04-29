@@ -14,7 +14,7 @@ const Search = ({handleSubmit, word, setWord}) => {
                 type="text"
                 value={word}
                 onChange={(e) => setWord(e.target.value)}
-                placeholder="seacrh for Image.."  
+                placeholder="search for Image.."  
                 />
               </Col>
               <Col>
